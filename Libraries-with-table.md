@@ -7,10 +7,6 @@
 | JSONBabel | a tool for translating .json language files. | [https://comigo.itch.io/jsonbabel](https://comigo.itch.io/jsonbabel) | Localisation   Tool |
 
 <script>
-	document.querySelectorAll('table').forEach(function(el, i){
-  el.id = i;
-  el.classList.add('table');
-});
 var tf = new TableFilter(document.querySelector('.table'), {
     base_path: 'js/tablefilter/'
 });
