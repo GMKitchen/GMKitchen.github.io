@@ -68,6 +68,12 @@ function btnOff() {
   }
 }
 
+function createTable() {
+	let tbl = document.createElement('table');
+	let tbdy = document.createElement('tbody');
+	tbl.appendChild(tbdy);
+}
+
 function addElement(columnName, title, url, author, description) {
   const hashtag1 = ["filterDiv"];
   const hashtag2 = [columnName];
@@ -99,7 +105,8 @@ function addElement(columnName, title, url, author, description) {
 		
 		newDiv.appendChild(coll0);
 		newDiv.appendChild(coll1);
-		newDiv.appendChild(coll2);// put <p> into newDiv
+		newDiv.appendChild(coll2);
+		tbdy.appendChild(newDiv);// put <p> into newDiv
 
     // let para = document.createElement("td");
     // let paraContent = document.createTextNode(`${punctuation} ${author}`);
