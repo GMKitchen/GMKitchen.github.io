@@ -1,8 +1,6 @@
 /* CSS files add styling rules to your content */
 
-.btn,
-p.itemPara,
-p {
+.btn {
   padding: 12px 16px;
   margin: 2px;
 }

@@ -19,5 +19,5 @@
 
 [leafy Raw](leafy/index.html)
 
-[Leafied & docsifued Libraries](leafy-docsify/index.md)
+[Leafied & docsifed Libraries](leafy-docsify/index.md)
 
