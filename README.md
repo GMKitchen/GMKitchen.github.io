@@ -10,14 +10,10 @@
 
 **If you'd like to add a link to this list, please make a pull request.**
 
+[Leafied & docsifed Libraries](leafy-docsify/index.md)
 
 [Libraries](Libraries.md)
 
 [Libraries With Table](Libraries-with-table.md)
 
 [Libraries the Elf style](Libraries-dragon-style.md)
-
-[leafy Raw](leafy/index.html)
-
-[Leafied & docsifed Libraries](leafy-docsify/index.md)
-
