@@ -7,6 +7,17 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+	
+	<!--for Leafy -->
+	    <!-- import tabletop.js -->
+    <script src="tabletop/tabletop.min.js"></script>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js"></script>
+	
 </head>
 <body>
   <div id="app"></div>
@@ -20,7 +31,6 @@
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-	<script src="js/tablefilter/tablefilter.js"></script>
 	<script>
 var tf = new TableFilter(document.querySelector('table'), {
     base_path: 'js/tablefilter/'
