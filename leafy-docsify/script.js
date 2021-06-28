@@ -73,8 +73,8 @@ function addElement(columnName, title, url, author, description) {
   const hashtag2 = [columnName];
   const hashtagArray = hashtag1.concat(hashtag2);
   const hashtagString = hashtagArray.join(" ");
-  const newDiv = document.createElement("tr");
-  newDiv.className = hashtagString;
+  const newRow = document.createElement("tr");
+  newRow.className = hashtagString;
 
   // place individual link inside individual div
   for (let i = 0; i < 1; i++) {
@@ -84,23 +84,22 @@ function addElement(columnName, title, url, author, description) {
     link.title = title;
     link.href = url;
     // linke.className = "itemLink";
-		
+
 		let coll0 = document.createElement("td");
 		coll0.appendChild(link);
-		
+
 		let coll1 = document.createElement("td");
 		let coll1Content = document.createTextNode(`${author}`);
 		coll1.appendChild(coll1Content);
-		
+
 		let coll2 = document.createElement("td");
 		let coll2Content = document.createTextNode(`${description}`);
 		coll2.appendChild(coll2Content)
     // coll1.className = "itemDescription";
-		
-		newDiv.appendChild(coll0);
-		newDiv.appendChild(coll1);
-		newDiv.appendChild(coll2);// put <p> into newDiv
 
+		newRow.appendChild(coll0);
+		newRow.appendChild(coll1);
+		newRow.appendChild(coll2);// put <p> into newDiv
     // let para = document.createElement("td");
     // let paraContent = document.createTextNode(`${punctuation} ${author}`);
     // para.appendChild(paraContent);
@@ -110,7 +109,7 @@ function addElement(columnName, title, url, author, description) {
     // link.after(paraContent); // put <p> description after <a>
     // newDiv.appendChild(para); // put <p> into newDiv
   }
-  document.getElementsByClassName("container")[0].appendChild(newDiv);
+  document.getElementsByClassName("container")[0].appendChild(newRow);
 }
 
 window.addEventListener("DOMContentLoaded", init);

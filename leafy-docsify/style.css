@@ -7,14 +7,14 @@
 
 .filterDiv,
 .show {
-  float: left;
+  /*float: left;*/
   width: 100%;
 }
 
 .filterDiv,
 .show,
 .btn {
-  margin: 2px 2px;
+  /*margin: 2px 2px;*/
 }
 
 .filterDiv {
@@ -22,7 +22,7 @@
 }
 
 .show {
-  display: inline-block;
+  display: table-row-group;
 }
 
 #myBtnContainer {
@@ -32,6 +32,7 @@
 .container {
   margin-bottom: 20px;
   overflow: hidden;
+  border-collapse: collapse;
 }
 
 /* Style the buttons */
