@@ -1,39 +1,10 @@
 /* CSS files add styling rules to your content */
 
-body {
-  font-family: helvetica, arial, sans-serif;
-  background-color: #f5e2dc;
-  margin: 2em;
-  padding: 2em;
-  font-size: 14px;
-}
-
 .btn,
 p.itemPara,
 p {
   padding: 12px 16px;
   margin: 2px;
-}
-
-h1,
-p {
-  padding: 12px 3px;
-  margin: 2px;
-}
-
-a,
-p {
-  color: black;
-  font-size: 14px;
-  line-height: 18px;
-}
-
-a.itemLink,
-p.itemPara {
-  float: left;
-  display: inline-block;
-  border-radius: 12px;
-  background-color: #f1f1f1;
 }
 
 .filterDiv,

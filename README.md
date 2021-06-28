@@ -17,4 +17,7 @@
 
 [Libraries the Elf style](Libraries-dragon-style.md)
 
-[Leafied List](leafy-docsify/index.md)
+[leafy Raw](leafy/index.html)
+
+[Leafied & docsifued Libraries](leafy-docsify/index.md)
+

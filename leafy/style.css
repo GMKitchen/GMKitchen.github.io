@@ -1,12 +1,12 @@
 /* CSS files add styling rules to your content */
 
-body {
+/*body {
   font-family: helvetica, arial, sans-serif;
   background-color: #f5e2dc;
   margin: 2em;
   padding: 2em;
   font-size: 14px;
-}
+}*/
 
 .btn,
 p.itemPara,
@@ -15,7 +15,7 @@ p {
   margin: 2px;
 }
 
-h1,
+/*h1,
 p {
   padding: 12px 3px;
   margin: 2px;
@@ -34,7 +34,7 @@ p.itemPara {
   display: inline-block;
   border-radius: 12px;
   background-color: #f1f1f1;
-}
+}*/
 
 .filterDiv,
 .show {
